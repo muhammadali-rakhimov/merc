@@ -1,0 +1,21 @@
+.parent {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tabClicker {
+  .navLinkButton {
+    color: #fff;
+    font-size: 15px;
+  }
+
+  .navLinkButton:active, .navLinkButton:focus, .navLinkButton:hover {
+    font-size: 20px;
+    font-weight: bold !important;
+  }
+}
+
+.colorTitleImportant {
+  color: #fff !important;
+}

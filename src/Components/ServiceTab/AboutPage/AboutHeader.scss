@@ -1,0 +1,36 @@
+.ab_header{
+    background: url('../../../assets/About/head.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    .wrapper{
+        padding: 150px 0;
+        // background: linear-gradient();
+        background: rgba(0, 0, 0, 0.5); 
+        display: flex;
+        justify-content: center;
+        .intro{
+            h1{
+                font-family: Calibri;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 56px;
+                line-height: 56px;
+                text-align: center;
+                text-transform: uppercase;
+                color: #FFFFFF;
+            }
+            p{
+                text-align: center;
+                font-size: 24px;
+                color: #00C2FF;
+                line-height: 24px;
+            }
+            a{
+                line-height: 24px;
+                text-align: center;
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+        }
+    }
+}

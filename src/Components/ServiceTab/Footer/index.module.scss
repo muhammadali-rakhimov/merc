@@ -1,0 +1,30 @@
+.alink, .alink:focus, .alink:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+.alink:hover {
+  margin-left: 3px;
+  color: rgb(172, 172, 172);
+  transition-duration: 500ms;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.socialLink, .socialLink:focus, .socialLink:visited {
+  text-decoration: none;
+  color: #fff;
+  transition-duration: 500ms;
+}
+
+.socialLinkFacebook:hover {
+  color: #3b5998;
+}
+
+.socialLinkTwitter:hover {
+  color: #00acee;
+}
+
+.socialLinkInstagram:hover {
+  color: #833AB4;
+}

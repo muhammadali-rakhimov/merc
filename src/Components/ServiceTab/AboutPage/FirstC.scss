@@ -1,0 +1,19 @@
+.firstC{
+    @media all and (max-width:992px){
+        
+    }
+    padding: 40px 0px;
+    .someAbout{
+        @media all and (max-width:992px){
+            display: block;
+        }
+        padding: 50px 0;
+        display: grid;
+        grid-template-columns: 40% 60%;
+        .right_box{
+            h1{
+                max-width: 500px;
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.active {
+  color: #00C2FF;
+}
+
+.browse-link {
+  text-decoration: none !important;
+}
+
+.imageWrapper {
+  position: relative;
+}
+
+.imageWrapper p {
+  position: absolute;
+  z-index: 9999;
+  bottom: 0;
+}

@@ -1,0 +1,12 @@
+.Videos{
+    .wrapper{
+        @media all and (max-width:992px){
+            display: block;
+        }
+        display: grid;
+        grid-template-columns: 50% 50%;
+        div{
+            margin: 20px 0;
+        }
+    }
+}
